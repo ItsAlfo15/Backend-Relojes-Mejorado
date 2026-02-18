@@ -1,0 +1,81 @@
+{
+    "id": "1",
+    "fecha_registro": "",
+    "fecha_modificacion": "",
+    "marca": "Richard Mille",
+    "modelo": "RM 59-01",
+    "referencia": "56175ST",
+    "descripcion_resumida": "Lotus F1 Team Romain Grosjean 2018 Full Set",
+    "estado": [
+        {
+            "tipo": "Usado (Muy bueno)",
+            "descripcion_estado": "El artículo presenta ligeras señales de uso, como unos leves arañazos, pero no son perceptibles."
+        }
+    ],
+    "disponibilidad": true,
+    "precio": 1041779,
+    "anio_fabricacion": 2018,
+    "tiene_caja": true,
+    "tiene_papeles": true,
+    "valoracion": 4.7,
+    "imagenes": [
+        "",
+        "",
+        ""
+    ],
+    "informacion_general": [
+        {
+            "categoria": "Timeless",
+            "genero": "caballero",
+            "ubicaion": "Bélgica, Antwerp"
+        }
+    ],
+    "calibre": [
+        {
+            "tipo_calibre": "Cuarzo",
+            "cod_calibre": "RMAR1",
+            "reserva_marcha": 55
+        }
+    ],
+    "caja": [
+        {
+            "material": "Acero",
+            "diametro": 33,
+            "resistencia_agua": "3 ATM",
+            "material_bisel": "Acero",
+            "cristal": "Cristal de zafiro",
+            "cara": "Azul",
+            "tipo_numeros": "Romanos"
+        }
+    ],
+    "pulsera": [
+        {
+            "materal_pulsera": "Acero",
+            "color": "Acero",
+            "cierre": "Cierre desplegable",
+            "material_cierre": "Acero"
+        }
+    ],
+    "descripcion": "cartier tank Vermeil de 20 x 28 mm (medido sin corona) con calibre de cuerda manual. Documentos de servicio Cartier de 1993 y 1994. Raro tanque vintage de cuerda manual de los años 80. Preciosa esfera negra con índices romanos plateados y agujas plateadas, perfectamente legibles. El Tank Vermeil impresiona por su construcción / diseño clásico. Técnicamente absolutamente impecable. Hermoso estado con sólo ligeros signos ópticos de desgaste y arañazos, el chapado en oro en las esquinas está ligeramente frotado. Durante nuestra prueba en la escala de tiempo, el reloj funcionó muy bien en torno a - 8 s / d con una amplitud de 240 grados. El reloj está equipado con una correa de cuero neutro con hebilla de pasador neutro chapado en oro, que combina perfectamente con el reloj. El reloj se entrega en el servicio original de Cartier / pochette de viaje. Todos los relojes están en stock en el banco, así que póngase en contacto con nosotros a tiempo si desea verlos. Por supuesto, recibirá la factura correspondiente a su reloj."
+}
+
+A partir de este json generame un set de 24 relojes con los siguientes datos:
+
+Marcas disponibles:
+	- Rolex x8 relojes
+	- Richard Mille x4 relojes
+	- Audemars Piguet x4 relojes
+	- Patek Philippe x4 relojes
+	- Cartier x4 relojes
+
+Fecha de modificacion: en el inicio sera igual que la fecha de registro.
+
+Valoracion: de 1 a 5
+
+Genero: Caballero | Dama
+Tipo de calibre: Cuarzo | Automatico | Cuerda manual
+
+Cod_calibre: puede ser null
+Reserva_marcha: puede ser null
+
+Resistendia al agua: puede ser null

@@ -1,0 +1,1204 @@
+{
+  "relojes": [
+    {
+      "id": "84iWCdjjoDn52sPnNZcU",
+      "fecha_registro": "2025-01-10T00:00:00.000Z",
+      "marca": "Richard Mille",
+      "modelo": "RM 67-01",
+      "referencia": "RM67-01",
+      "descripcion_resumida": "Richard Mille ultraplano",
+      "estado": {
+        "tipo": "Nuevo",
+        "descripcion_estado": "Sin uso."
+      },
+      "disponibilidad": true,
+      "anio_fabricacion": 2023,
+      "tiene_caja": true,
+      "tiene_papeles": true,
+      "valoracion": 4.8,
+      "informacion_general": {
+        "categoria": "Alta relojería",
+        "genero": "Caballero",
+        "ubicacion": "Emiratos Árabes, Dubái"
+      },
+      "calibre": {
+        "tipo_calibre": "Automatico",
+        "cod_calibre": "CRMA6",
+        "reserva_marcha": 50
+      },
+      "descripcion": "Reloj ultraligero de alta precisión.",
+      "pulsera": {
+        "material_pulsera": "Textil",
+        "color": "Negro",
+        "cierre": "Velcro",
+        "material_cierre": "Titanio"
+      },
+      "precio": 145000,
+      "caja": {
+        "material": "Titanio",
+        "diametro": 38,
+        "resistencia_agua": null,
+        "material_bisel": "Titanio",
+        "cristal": "Zafiro",
+        "esfera": "Esqueletada",
+        "tipo_numeros": "Sin números"
+      },
+      "fecha_modificacion": "2026-02-14T11:56:07.027Z",
+      "imagenes": [
+        "https://res.cloudinary.com/dlg9gx3ye/image/upload/v1771152501/rm-67-01_plrsrk.webp",
+        "",
+        ""
+      ]
+    },
+    {
+      "id": "8JMML6X7lu2V0m9r0lAN",
+      "fecha_registro": "2025-01-19T00:00:00.000Z",
+      "fecha_modificacion": "2025-01-19",
+      "marca": "Patek Philippe",
+      "modelo": "Calatrava",
+      "referencia": "5119J",
+      "descripcion_resumida": "Patek Philippe Calatrava clásico",
+      "estado": {
+        "tipo": "Usado (Excelente)",
+        "descripcion_estado": "Excelente conservación."
+      },
+      "disponibilidad": true,
+      "precio": 26500,
+      "anio_fabricacion": 2015,
+      "tiene_caja": false,
+      "tiene_papeles": true,
+      "valoracion": 4.6,
+      "informacion_general": {
+        "categoria": "Clásico",
+        "genero": "Caballero",
+        "ubicacion": "Austria, Viena"
+      },
+      "calibre": {
+        "tipo_calibre": "Cuerda manual",
+        "cod_calibre": "215 PS",
+        "reserva_marcha": 44
+      },
+      "caja": {
+        "material": "Oro amarillo",
+        "diametro": 36,
+        "resistencia_agua": null,
+        "material_bisel": "Oro amarillo",
+        "cristal": "Zafiro",
+        "esfera": "Blanca",
+        "tipo_numeros": "Romanos"
+      },
+      "pulsera": {
+        "material_pulsera": "Cuero",
+        "color": "Negro",
+        "cierre": "Hebilla",
+        "material_cierre": "Oro amarillo"
+      },
+      "descripcion": "La esencia de la relojería clásica.",
+      "imagenes": [
+        "https://res.cloudinary.com/dlg9gx3ye/image/upload/v1771152598/calatrava_eojsru.png",
+        "",
+        ""
+      ]
+    },
+    {
+      "id": "9GmjAiOm5F4h7zUMPb3K",
+      "fecha_registro": "2025-01-20T00:00:00.000Z",
+      "fecha_modificacion": "2025-01-20",
+      "marca": "Patek Philippe",
+      "modelo": "Twenty~4",
+      "referencia": "7300/1200A",
+      "descripcion_resumida": "Patek Philippe Twenty~4 dama",
+      "estado": {
+        "tipo": "Nuevo",
+        "descripcion_estado": "A estrenar."
+      },
+      "disponibilidad": true,
+      "precio": 29500,
+      "anio_fabricacion": 2024,
+      "tiene_caja": true,
+      "tiene_papeles": true,
+      "valoracion": 4.7,
+      "informacion_general": {
+        "categoria": "Elegante",
+        "genero": "Dama",
+        "ubicacion": "Suiza, Basilea"
+      },
+      "calibre": {
+        "tipo_calibre": "Automatico",
+        "cod_calibre": "324 S C",
+        "reserva_marcha": 45
+      },
+      "caja": {
+        "material": "Acero",
+        "diametro": 36,
+        "resistencia_agua": "30 m",
+        "material_bisel": "Diamantes",
+        "cristal": "Zafiro",
+        "esfera": "Azul",
+        "tipo_numeros": "Índices"
+      },
+      "pulsera": {
+        "material_pulsera": "Acero",
+        "color": "Acero",
+        "cierre": "Desplegable",
+        "material_cierre": "Acero"
+      },
+      "descripcion": "Elegancia femenina contemporánea.",
+      "imagenes": [
+        "https://res.cloudinary.com/dlg9gx3ye/image/upload/v1771152621/twenty-4_oxn7yg.png",
+        "",
+        ""
+      ]
+    },
+    {
+      "id": "BEV2JhgnuRfyV9HCFhYn",
+      "marca": "Audemars Piguet",
+      "modelo": "Millenary",
+      "referencia": "77301OR",
+      "descripcion_resumida": "Audemars Piguet Millenary",
+      "estado": {
+        "tipo": "Usado (Excelente)",
+        "descripcion_estado": "Excelente conservación."
+      },
+      "disponibilidad": true,
+      "precio": 28000,
+      "anio_fabricacion": 2016,
+      "tiene_caja": false,
+      "tiene_papeles": true,
+      "valoracion": 4.4,
+      "informacion_general": {
+        "categoria": "Alta relojería",
+        "genero": "Dama",
+        "ubicacion": "Francia, Lyon"
+      },
+      "calibre": {
+        "tipo_calibre": "Cuerda manual",
+        "cod_calibre": "5201",
+        "reserva_marcha": 49
+      },
+      "caja": {
+        "material": "Oro rosa",
+        "diametro": 39,
+        "resistencia_agua": null,
+        "material_bisel": "Oro rosa",
+        "cristal": "Zafiro",
+        "esfera": "Plata",
+        "tipo_numeros": "Romanos"
+      },
+      "pulsera": {
+        "material_pulsera": "Cuero",
+        "color": "Marrón",
+        "cierre": "Hebilla",
+        "material_cierre": "Oro rosa"
+      },
+      "descripcion": "Diseño oval distintivo.",
+      "imagenes": [
+        "https://res.cloudinary.com/dlg9gx3ye/image/upload/v1771152780/millenary_dete1t.webp",
+        "",
+        ""
+      ],
+      "fecha_registro": "2026-02-15T12:19:46.908Z",
+      "fecha_modificacion": "2026-02-15T12:19:46.908Z"
+    },
+    {
+      "id": "CATaEeaVMmu2zFtq8k9B",
+      "fecha_registro": "2025-01-01T00:00:00.000Z",
+      "fecha_modificacion": "10/2/2026, 12:41:04",
+      "marca": "Rolex",
+      "referencia": "126610LN",
+      "descripcion_resumida": "Rolex Submariner Date Full Set",
+      "estado": {
+        "tipo": "Usado (Excelente)",
+        "descripcion_estado": "Estado impecable."
+      },
+      "disponibilidad": true,
+      "precio": 13250,
+      "anio_fabricacion": 2022,
+      "tiene_caja": true,
+      "tiene_papeles": true,
+      "valoracion": 4.8,
+      "informacion_general": {
+        "categoria": "Deportivo",
+        "genero": "Caballero",
+        "ubicacion": "España, Madrid"
+      },
+      "calibre": {
+        "tipo_calibre": "Automatico",
+        "cod_calibre": "3235",
+        "reserva_marcha": 70
+      },
+      "caja": {
+        "material": "Acero",
+        "diametro": 41,
+        "resistencia_agua": "300 m",
+        "material_bisel": "Cerámica",
+        "cristal": "Zafiro",
+        "esfera": "Negra",
+        "tipo_numeros": "Índices"
+      },
+      "pulsera": {
+        "material_pulsera": "Acero",
+        "color": "Acero",
+        "cierre": "Desplegable",
+        "material_cierre": "Acero"
+      },
+      "descripcion": "Reloj profesional de buceo con diseño icónico.",
+      "modelo": "Submariner Date",
+      "imagenes": [
+        "https://res.cloudinary.com/dlg9gx3ye/image/upload/v1771152319/submariner-date_o2vpie.png",
+        "",
+        ""
+      ]
+    },
+    {
+      "id": "IPYG07UwdRIY4CtH8jPR",
+      "fecha_registro": "2025-01-22T00:00:00.000Z",
+      "fecha_modificacion": "2025-01-22",
+      "marca": "Cartier",
+      "modelo": "Santos",
+      "referencia": "WSSA0018",
+      "descripcion_resumida": "Cartier Santos Medium",
+      "estado": {
+        "tipo": "Usado (Excelente)",
+        "descripcion_estado": "Estado excelente."
+      },
+      "disponibilidad": true,
+      "precio": 6900,
+      "anio_fabricacion": 2021,
+      "tiene_caja": true,
+      "tiene_papeles": true,
+      "valoracion": 4.7,
+      "informacion_general": {
+        "categoria": "Icono",
+        "genero": "Caballero",
+        "ubicacion": "España, Valencia"
+      },
+      "calibre": {
+        "tipo_calibre": "Automatico",
+        "cod_calibre": "1847 MC",
+        "reserva_marcha": 42
+      },
+      "caja": {
+        "material": "Acero",
+        "diametro": 35,
+        "resistencia_agua": "100 m",
+        "material_bisel": "Acero",
+        "cristal": "Zafiro",
+        "esfera": "Blanca",
+        "tipo_numeros": "Romanos"
+      },
+      "pulsera": {
+        "material_pulsera": "Acero",
+        "color": "Acero",
+        "cierre": "SmartLink",
+        "material_cierre": "Acero"
+      },
+      "descripcion": "Primer reloj de pulsera moderno.",
+      "imagenes": [
+        "https://res.cloudinary.com/dlg9gx3ye/image/upload/v1771152692/santos_fawjzq.png",
+        "",
+        ""
+      ]
+    },
+    {
+      "id": "J1UUBIoVXxcOWUyucTpq",
+      "fecha_registro": "2025-01-24T00:00:00.000Z",
+      "fecha_modificacion": "2025-01-24",
+      "marca": "Cartier",
+      "modelo": "Tank Must",
+      "referencia": "WSTA0041",
+      "descripcion_resumida": "Cartier Tank Must Large",
+      "estado": {
+        "tipo": "Usado (Muy bueno)",
+        "descripcion_estado": "Buen estado."
+      },
+      "disponibilidad": true,
+      "precio": 3900,
+      "anio_fabricacion": 2022,
+      "tiene_caja": true,
+      "tiene_papeles": true,
+      "valoracion": 4.4,
+      "informacion_general": {
+        "categoria": "Clásico",
+        "genero": "Caballero",
+        "ubicacion": "España, Sevilla"
+      },
+      "calibre": {
+        "tipo_calibre": "Cuarzo",
+        "cod_calibre": null,
+        "reserva_marcha": null
+      },
+      "caja": {
+        "material": "Acero",
+        "diametro": 33,
+        "resistencia_agua": "30 m",
+        "material_bisel": "Acero",
+        "cristal": "Zafiro",
+        "esfera": "Blanca",
+        "tipo_numeros": "Romanos"
+      },
+      "pulsera": {
+        "material_pulsera": "Cuero",
+        "color": "Negro",
+        "cierre": "Hebilla",
+        "material_cierre": "Acero"
+      },
+      "descripcion": "Interpretación moderna del Tank clásico.",
+      "imagenes": [
+        "https://res.cloudinary.com/dlg9gx3ye/image/upload/v1771152709/tank-must_kj1snp.png",
+        "",
+        ""
+      ]
+    },
+    {
+      "id": "JpKyqR5BMGLBXJgyh3tL",
+      "fecha_registro": "2025-01-23T00:00:00.000Z",
+      "fecha_modificacion": "2025-01-23",
+      "marca": "Cartier",
+      "modelo": "Ballon Bleu",
+      "referencia": "WSBB0044",
+      "descripcion_resumida": "Cartier Ballon Bleu 33",
+      "estado": {
+        "tipo": "Nuevo",
+        "descripcion_estado": "Sin uso."
+      },
+      "disponibilidad": true,
+      "precio": 5400,
+      "anio_fabricacion": 2024,
+      "tiene_caja": true,
+      "tiene_papeles": true,
+      "valoracion": 4.6,
+      "informacion_general": {
+        "categoria": "Elegante",
+        "genero": "Dama",
+        "ubicacion": "Portugal, Lisboa"
+      },
+      "calibre": {
+        "tipo_calibre": "Automatico",
+        "cod_calibre": "1847 MC",
+        "reserva_marcha": 42
+      },
+      "caja": {
+        "material": "Acero",
+        "diametro": 33,
+        "resistencia_agua": "30 m",
+        "material_bisel": "Acero",
+        "cristal": "Zafiro",
+        "esfera": "Plateada",
+        "tipo_numeros": "Romanos"
+      },
+      "pulsera": {
+        "material_pulsera": "Acero",
+        "color": "Acero",
+        "cierre": "Desplegable",
+        "material_cierre": "Acero"
+      },
+      "descripcion": "Diseño redondeado icónico.",
+      "imagenes": [
+        "https://res.cloudinary.com/dlg9gx3ye/image/upload/v1771152728/ballon-bleu_hfisad.png",
+        "",
+        ""
+      ]
+    },
+    {
+      "id": "LerwDRZvhwAPFMOBhDef",
+      "fecha_registro": "2025-01-07T00:00:00.000Z",
+      "marca": "Rolex",
+      "descripcion_resumida": "Rolex Yacht-Master acero",
+      "estado": {
+        "tipo": "Usado (Excelente)",
+        "descripcion_estado": "Excelente conservación."
+      },
+      "disponibilidad": true,
+      "precio": 11200,
+      "anio_fabricacion": 2020,
+      "tiene_caja": true,
+      "tiene_papeles": true,
+      "valoracion": 4.6,
+      "informacion_general": {
+        "categoria": "Náutico",
+        "genero": "Caballero",
+        "ubicacion": "Mónaco"
+      },
+      "calibre": {
+        "tipo_calibre": "Automatico",
+        "cod_calibre": "3235",
+        "reserva_marcha": 70
+      },
+      "caja": {
+        "material": "Acero",
+        "diametro": 40,
+        "resistencia_agua": "100 m",
+        "material_bisel": "Platino",
+        "cristal": "Zafiro",
+        "esfera": "Rodia",
+        "tipo_numeros": "Arábigos"
+      },
+      "pulsera": {
+        "material_pulsera": "Acero",
+        "color": "Acero",
+        "cierre": "Oysterlock",
+        "material_cierre": "Acero"
+      },
+      "descripcion": "Elegancia deportiva náutica.",
+      "modelo": "Yacht-Master",
+      "fecha_modificacion": "2026-02-14T12:28:29.741Z",
+      "referencia": "126622",
+      "imagenes": [
+        "https://res.cloudinary.com/dlg9gx3ye/image/upload/v1771152085/yacht-master_xw8wg0.png",
+        "",
+        ""
+      ]
+    },
+    {
+      "id": "LpMAmQsZLCPxDBgUK8O0",
+      "fecha_registro": "2025-01-05T00:00:00.000Z",
+      "fecha_modificacion": "2025-01-05",
+      "marca": "Rolex",
+      "modelo": "Oyster Perpetual 31",
+      "referencia": "277200",
+      "descripcion_resumida": "Rolex Oyster Perpetual dama",
+      "estado": {
+        "tipo": "Nuevo",
+        "descripcion_estado": "Sin uso."
+      },
+      "disponibilidad": true,
+      "precio": 6200,
+      "anio_fabricacion": 2023,
+      "tiene_caja": true,
+      "tiene_papeles": true,
+      "valoracion": 4.5,
+      "informacion_general": {
+        "categoria": "Casual",
+        "genero": "Dama",
+        "ubicacion": "España, Barcelona"
+      },
+      "calibre": {
+        "tipo_calibre": "Automatico",
+        "cod_calibre": "2232",
+        "reserva_marcha": 55
+      },
+      "caja": {
+        "material": "Acero",
+        "diametro": 31,
+        "resistencia_agua": "100 m",
+        "material_bisel": "Acero",
+        "cristal": "Zafiro",
+        "esfera": "Rosa",
+        "tipo_numeros": "Índices"
+      },
+      "pulsera": {
+        "material_pulsera": "Acero",
+        "color": "Acero",
+        "cierre": "Desplegable",
+        "material_cierre": "Acero"
+      },
+      "descripcion": "Diseño minimalista y elegante.",
+      "imagenes": [
+        "https://res.cloudinary.com/dlg9gx3ye/image/upload/v1771152357/oyster-perpetual-31_hf7asu.png",
+        "",
+        ""
+      ]
+    },
+    {
+      "id": "Nymzh4CJizs4pBaUJNo8",
+      "fecha_registro": "2025-01-12T00:00:00.000Z",
+      "fecha_modificacion": "2025-01-12",
+      "marca": "Richard Mille",
+      "modelo": "RM 30",
+      "referencia": "RM30-01",
+      "descripcion_resumida": "Richard Mille rotor desacoplable",
+      "estado": {
+        "tipo": "Usado (Muy bueno)",
+        "descripcion_estado": "Ligero uso."
+      },
+      "disponibilidad": true,
+      "precio": 180000,
+      "anio_fabricacion": 2016,
+      "tiene_caja": true,
+      "tiene_papeles": true,
+      "valoracion": 4.5,
+      "informacion_general": {
+        "categoria": "Alta relojería",
+        "genero": "Caballero",
+        "ubicacion": "Estados Unidos, Miami"
+      },
+      "calibre": {
+        "tipo_calibre": "Automatico",
+        "cod_calibre": "RMAR2",
+        "reserva_marcha": 55
+      },
+      "caja": {
+        "material": "Titanio",
+        "diametro": 42,
+        "resistencia_agua": null,
+        "material_bisel": "Titanio",
+        "cristal": "Zafiro",
+        "esfera": "Esqueletada",
+        "tipo_numeros": "Sin números"
+      },
+      "pulsera": {
+        "material_pulsera": "Caucho",
+        "color": "Negro",
+        "cierre": "Hebilla",
+        "material_cierre": "Titanio"
+      },
+      "descripcion": "Innovación mecánica avanzada.",
+      "imagenes": [
+        "https://res.cloudinary.com/dlg9gx3ye/image/upload/v1771152521/rm-30_jlzygv.png",
+        "",
+        ""
+      ]
+    },
+    {
+      "id": "Pwos9rct6LjXXR1wOldP",
+      "fecha_registro": "2025-01-18T00:00:00.000Z",
+      "fecha_modificacion": "2025-01-18",
+      "marca": "Patek Philippe",
+      "modelo": "Aquanaut",
+      "referencia": "5167A",
+      "descripcion_resumida": "Patek Philippe Aquanaut",
+      "estado": {
+        "tipo": "Usado (Muy bueno)",
+        "descripcion_estado": "Muy buen estado."
+      },
+      "disponibilidad": true,
+      "precio": 78000,
+      "anio_fabricacion": 2020,
+      "tiene_caja": true,
+      "tiene_papeles": true,
+      "valoracion": 4.8,
+      "informacion_general": {
+        "categoria": "Deportivo",
+        "genero": "Caballero",
+        "ubicacion": "Singapur"
+      },
+      "calibre": {
+        "tipo_calibre": "Automatico",
+        "cod_calibre": "324 SC",
+        "reserva_marcha": 45
+      },
+      "caja": {
+        "material": "Acero",
+        "diametro": 40,
+        "resistencia_agua": "120 m",
+        "material_bisel": "Acero",
+        "cristal": "Zafiro",
+        "esfera": "Negra",
+        "tipo_numeros": "Arábigos"
+      },
+      "pulsera": {
+        "material_pulsera": "Caucho",
+        "color": "Negro",
+        "cierre": "Desplegable",
+        "material_cierre": "Acero"
+      },
+      "descripcion": "Diseño deportivo contemporáneo.",
+      "imagenes": [
+        "https://res.cloudinary.com/dlg9gx3ye/image/upload/v1771152645/aquanaut_sx1bfe.png",
+        "",
+        ""
+      ]
+    },
+    {
+      "id": "RQPJ1KbX9XFiXoof1oCV",
+      "fecha_registro": "2025-01-13T00:00:00.000Z",
+      "fecha_modificacion": "2025-01-13",
+      "marca": "Audemars Piguet",
+      "modelo": "Royal Oak",
+      "referencia": "15500ST",
+      "descripcion_resumida": "Royal Oak acero",
+      "estado": {
+        "tipo": "Usado (Excelente)",
+        "descripcion_estado": "Excelente estado."
+      },
+      "disponibilidad": true,
+      "precio": 42000,
+      "anio_fabricacion": 2021,
+      "tiene_caja": true,
+      "tiene_papeles": true,
+      "valoracion": 4.9,
+      "informacion_general": {
+        "categoria": "Deportivo lujo",
+        "genero": "Caballero",
+        "ubicacion": "Suiza, Lausana"
+      },
+      "calibre": {
+        "tipo_calibre": "Automatico",
+        "cod_calibre": "4302",
+        "reserva_marcha": 70
+      },
+      "caja": {
+        "material": "Acero",
+        "diametro": 41,
+        "resistencia_agua": "50 m",
+        "material_bisel": "Acero",
+        "cristal": "Zafiro",
+        "esfera": "Azul",
+        "tipo_numeros": "Índices"
+      },
+      "pulsera": {
+        "material_pulsera": "Acero",
+        "color": "Acero",
+        "cierre": "Desplegable",
+        "material_cierre": "Acero"
+      },
+      "descripcion": "Diseño icónico de Gérald Genta.",
+      "imagenes": [
+        "https://res.cloudinary.com/dlg9gx3ye/image/upload/v1771152801/royal-oak_iltmln.webp",
+        "",
+        ""
+      ]
+    },
+    {
+      "id": "cOOzxhP6CpLMBAzyarBA",
+      "fecha_registro": "2025-01-06T00:00:00.000Z",
+      "fecha_modificacion": "2025-01-06",
+      "marca": "Rolex",
+      "modelo": "GMT-Master II",
+      "referencia": "126710BLRO",
+      "descripcion_resumida": "Rolex Pepsi GMT",
+      "estado": {
+        "tipo": "Usado (Muy bueno)",
+        "descripcion_estado": "Ligeras marcas."
+      },
+      "disponibilidad": true,
+      "precio": 18500,
+      "anio_fabricacion": 2021,
+      "tiene_caja": true,
+      "tiene_papeles": true,
+      "valoracion": 4.9,
+      "informacion_general": {
+        "categoria": "Viaje",
+        "genero": "Caballero",
+        "ubicacion": "Reino Unido, Londres"
+      },
+      "calibre": {
+        "tipo_calibre": "Automatico",
+        "cod_calibre": "3285",
+        "reserva_marcha": 70
+      },
+      "caja": {
+        "material": "Acero",
+        "diametro": 40,
+        "resistencia_agua": "100 m",
+        "material_bisel": "Cerámica",
+        "cristal": "Zafiro",
+        "esfera": "Negra",
+        "tipo_numeros": "Índices"
+      },
+      "pulsera": {
+        "material_pulsera": "Acero",
+        "color": "Acero",
+        "cierre": "Oysterlock",
+        "material_cierre": "Acero"
+      },
+      "descripcion": "Función GMT ideal para viajeros.",
+      "imagenes": [
+        "https://res.cloudinary.com/dlg9gx3ye/image/upload/v1771152377/gmt-Master-II_mluade.png",
+        "",
+        ""
+      ]
+    },
+    {
+      "id": "ctfNvHbyopWRXmWv1G9v",
+      "fecha_registro": "2025-01-04T00:00:00.000Z",
+      "fecha_modificacion": "2025-01-04",
+      "marca": "Rolex",
+      "modelo": "Explorer",
+      "referencia": "124270",
+      "descripcion_resumida": "Rolex Explorer 36",
+      "estado": {
+        "tipo": "Usado (Excelente)",
+        "descripcion_estado": "Prácticamente nuevo."
+      },
+      "disponibilidad": true,
+      "precio": 7900,
+      "anio_fabricacion": 2021,
+      "tiene_caja": true,
+      "tiene_papeles": true,
+      "valoracion": 4.7,
+      "informacion_general": {
+        "categoria": "Aventura",
+        "genero": "Caballero",
+        "ubicacion": "Suiza, Zúrich"
+      },
+      "calibre": {
+        "tipo_calibre": "Automatico",
+        "cod_calibre": "3230",
+        "reserva_marcha": 70
+      },
+      "caja": {
+        "material": "Acero",
+        "diametro": 36,
+        "resistencia_agua": "100 m",
+        "material_bisel": "Acero",
+        "cristal": "Zafiro",
+        "esfera": "Negra",
+        "tipo_numeros": "Arábigos"
+      },
+      "pulsera": {
+        "material_pulsera": "Acero",
+        "color": "Acero",
+        "cierre": "Oysterlock",
+        "material_cierre": "Acero"
+      },
+      "descripcion": "Diseñado para exploración extrema.",
+      "imagenes": [
+        "https://res.cloudinary.com/dlg9gx3ye/image/upload/v1771152394/explorer_wbwvlb.png",
+        "",
+        ""
+      ]
+    },
+    {
+      "id": "f8DqdJoSiACo9ZRwnqJu",
+      "fecha_registro": "2025-01-08T00:00:00.000Z",
+      "fecha_modificacion": "2025-01-08",
+      "marca": "Rolex",
+      "modelo": "Milgauss",
+      "referencia": "116400GV",
+      "descripcion_resumida": "Rolex Milgauss esfera verde",
+      "estado": {
+        "tipo": "Usado (Muy bueno)",
+        "descripcion_estado": "Buen estado."
+      },
+      "disponibilidad": true,
+      "precio": 9500,
+      "anio_fabricacion": 2018,
+      "tiene_caja": true,
+      "tiene_papeles": true,
+      "valoracion": 4.4,
+      "informacion_general": {
+        "categoria": "Científico",
+        "genero": "Caballero",
+        "ubicacion": "Países Bajos, Ámsterdam"
+      },
+      "calibre": {
+        "tipo_calibre": "Automatico",
+        "cod_calibre": "3131",
+        "reserva_marcha": 48
+      },
+      "caja": {
+        "material": "Acero",
+        "diametro": 40,
+        "resistencia_agua": "100 m",
+        "material_bisel": "Acero",
+        "cristal": "Zafiro",
+        "esfera": "Verde",
+        "tipo_numeros": "Índices"
+      },
+      "pulsera": {
+        "material_pulsera": "Acero",
+        "color": "Acero",
+        "cierre": "Desplegable",
+        "material_cierre": "Acero"
+      },
+      "descripcion": "Diseñado para entornos magnéticos.",
+      "imagenes": [
+        "https://res.cloudinary.com/dlg9gx3ye/image/upload/v1771152429/milgauss_fdldjc.png",
+        "",
+        ""
+      ]
+    },
+    {
+      "id": "gJcRgPIRPnYF5ApgbVeg",
+      "fecha_registro": "2025-01-09T00:00:00.000Z",
+      "fecha_modificacion": "2025-01-09",
+      "marca": "Richard Mille",
+      "modelo": "RM 011",
+      "referencia": "RM011-FM",
+      "descripcion_resumida": "Richard Mille Flyback Chronograph",
+      "estado": {
+        "tipo": "Usado (Excelente)",
+        "descripcion_estado": "Estado sobresaliente."
+      },
+      "disponibilidad": true,
+      "precio": 235000,
+      "anio_fabricacion": 2017,
+      "tiene_caja": true,
+      "tiene_papeles": true,
+      "valoracion": 4.9,
+      "informacion_general": {
+        "categoria": "Alta relojería",
+        "genero": "Caballero",
+        "ubicacion": "Suiza, Ginebra"
+      },
+      "calibre": {
+        "tipo_calibre": "Automatico",
+        "cod_calibre": "RMAC1",
+        "reserva_marcha": 55
+      },
+      "caja": {
+        "material": "Titanio",
+        "diametro": 50,
+        "resistencia_agua": null,
+        "material_bisel": "Titanio",
+        "cristal": "Zafiro",
+        "esfera": "Esqueletada",
+        "tipo_numeros": "Sin números"
+      },
+      "pulsera": {
+        "material_pulsera": "Caucho",
+        "color": "Negro",
+        "cierre": "Hebilla",
+        "material_cierre": "Titanio"
+      },
+      "descripcion": "Alta ingeniería relojera contemporánea.",
+      "imagenes": [
+        "https://res.cloudinary.com/dlg9gx3ye/image/upload/v1771152554/rm-011_psnsae.png",
+        "",
+        ""
+      ]
+    },
+    {
+      "id": "ku5V5WlPgRORK9CIhAhb",
+      "fecha_registro": "2025-01-02T00:00:00.000Z",
+      "fecha_modificacion": "2025-01-02",
+      "marca": "Rolex",
+      "modelo": "Daytona",
+      "referencia": "116500LN",
+      "descripcion_resumida": "Rolex Cosmograph Daytona",
+      "estado": {
+        "tipo": "Usado (Muy bueno)",
+        "descripcion_estado": "Ligero desgaste."
+      },
+      "disponibilidad": true,
+      "precio": 29500,
+      "anio_fabricacion": 2020,
+      "tiene_caja": true,
+      "tiene_papeles": true,
+      "valoracion": 4.9,
+      "informacion_general": {
+        "categoria": "Cronógrafo",
+        "genero": "Caballero",
+        "ubicacion": "Alemania, Berlín"
+      },
+      "calibre": {
+        "tipo_calibre": "Automatico",
+        "cod_calibre": "4130",
+        "reserva_marcha": 72
+      },
+      "caja": {
+        "material": "Acero",
+        "diametro": 40,
+        "resistencia_agua": "100 m",
+        "material_bisel": "Cerámica",
+        "cristal": "Zafiro",
+        "esfera": "Blanca",
+        "tipo_numeros": "Índices"
+      },
+      "pulsera": {
+        "material_pulsera": "Acero",
+        "color": "Acero",
+        "cierre": "Oysterlock",
+        "material_cierre": "Acero"
+      },
+      "descripcion": "Cronógrafo legendario orientado a la competición.",
+      "imagenes": [
+        "https://res.cloudinary.com/dlg9gx3ye/image/upload/v1771152447/daytona_z1u36e.png",
+        "",
+        ""
+      ]
+    },
+    {
+      "id": "nxsjBTTxlyIPo4YrngXi",
+      "fecha_registro": "2025-01-14T00:00:00.000Z",
+      "fecha_modificacion": "2025-01-14",
+      "marca": "Audemars Piguet",
+      "modelo": "Royal Oak Offshore",
+      "referencia": "26400SO",
+      "descripcion_resumida": "Royal Oak Offshore cronógrafo",
+      "estado": {
+        "tipo": "Usado (Muy bueno)",
+        "descripcion_estado": "Buen estado."
+      },
+      "disponibilidad": true,
+      "precio": 38500,
+      "anio_fabricacion": 2018,
+      "tiene_caja": true,
+      "tiene_papeles": true,
+      "valoracion": 4.6,
+      "informacion_general": {
+        "categoria": "Deportivo",
+        "genero": "Caballero",
+        "ubicacion": "Italia, Milán"
+      },
+      "calibre": {
+        "tipo_calibre": "Automatico",
+        "cod_calibre": "3126/3840",
+        "reserva_marcha": 50
+      },
+      "caja": {
+        "material": "Acero",
+        "diametro": 44,
+        "resistencia_agua": "100 m",
+        "material_bisel": "Cerámica",
+        "cristal": "Zafiro",
+        "esfera": "Negra",
+        "tipo_numeros": "Arábigos"
+      },
+      "pulsera": {
+        "material_pulsera": "Caucho",
+        "color": "Negro",
+        "cierre": "Hebilla",
+        "material_cierre": "Acero"
+      },
+      "descripcion": "Versión robusta del Royal Oak.",
+      "imagenes": [
+        "https://res.cloudinary.com/dlg9gx3ye/image/upload/v1771152821/royal-oak-offshore_rrawx8.png",
+        "",
+        ""
+      ]
+    },
+    {
+      "id": "oRi0krcN7ZsRyIETr3nt",
+      "fecha_registro": "2025-01-16T00:00:00.000Z",
+      "fecha_modificacion": "2025-01-16",
+      "marca": "Audemars Piguet",
+      "modelo": "Code 11.59",
+      "referencia": "15210BC",
+      "descripcion_resumida": "Audemars Piguet Code 11.59",
+      "estado": {
+        "tipo": "Nuevo",
+        "descripcion_estado": "A estrenar."
+      },
+      "disponibilidad": true,
+      "precio": 34500,
+      "anio_fabricacion": 2024,
+      "tiene_caja": true,
+      "tiene_papeles": true,
+      "valoracion": 4.5,
+      "informacion_general": {
+        "categoria": "Moderno",
+        "genero": "Caballero",
+        "ubicacion": "Suiza, Ginebra"
+      },
+      "calibre": {
+        "tipo_calibre": "Automatico",
+        "cod_calibre": "4302",
+        "reserva_marcha": 70
+      },
+      "caja": {
+        "material": "Oro blanco",
+        "diametro": 41,
+        "resistencia_agua": "30 m",
+        "material_bisel": "Oro blanco",
+        "cristal": "Zafiro",
+        "esfera": "Azul",
+        "tipo_numeros": "Índices"
+      },
+      "pulsera": {
+        "material_pulsera": "Cuero",
+        "color": "Azul",
+        "cierre": "Hebilla",
+        "material_cierre": "Oro blanco"
+      },
+      "descripcion": "Nueva línea contemporánea de AP.",
+      "imagenes": [
+        "https://res.cloudinary.com/dlg9gx3ye/image/upload/v1771152841/code-11-59_ki3msv.webp",
+        "",
+        ""
+      ]
+    },
+    {
+      "id": "p6O9c6GnJDeSOktuwtwn",
+      "fecha_registro": "2025-01-21T00:00:00.000Z",
+      "fecha_modificacion": "2025-01-21",
+      "marca": "Cartier",
+      "modelo": "Tank Française",
+      "referencia": "WSTA0005",
+      "descripcion_resumida": "Cartier Tank Française",
+      "estado": {
+        "tipo": "Usado (Muy bueno)",
+        "descripcion_estado": "Buen estado."
+      },
+      "disponibilidad": true,
+      "precio": 6200,
+      "anio_fabricacion": 2020,
+      "tiene_caja": true,
+      "tiene_papeles": true,
+      "valoracion": 4.5,
+      "informacion_general": {
+        "categoria": "Clásico",
+        "genero": "Dama",
+        "ubicacion": "Francia, París"
+      },
+      "calibre": {
+        "tipo_calibre": "Cuarzo",
+        "cod_calibre": null,
+        "reserva_marcha": null
+      },
+      "caja": {
+        "material": "Acero",
+        "diametro": 32,
+        "resistencia_agua": "30 m",
+        "material_bisel": "Acero",
+        "cristal": "Zafiro",
+        "esfera": "Blanca",
+        "tipo_numeros": "Romanos"
+      },
+      "pulsera": {
+        "material_pulsera": "Acero",
+        "color": "Acero",
+        "cierre": "Desplegable",
+        "material_cierre": "Acero"
+      },
+      "descripcion": "Elegancia clásica francesa.",
+      "imagenes": [
+        "https://res.cloudinary.com/dlg9gx3ye/image/upload/v1771152745/tank-fran%C3%A7aise_dxapzo.png",
+        "",
+        ""
+      ]
+    },
+    {
+      "id": "pkqbnB8OfVaCoRzizGVH",
+      "fecha_registro": "2025-01-03T00:00:00.000Z",
+      "fecha_modificacion": "2025-01-03",
+      "marca": "Rolex",
+      "modelo": "Datejust 36",
+      "referencia": "126234",
+      "descripcion_resumida": "Rolex Datejust clásico",
+      "estado": {
+        "tipo": "Usado (Muy bueno)",
+        "descripcion_estado": "Buen estado general."
+      },
+      "disponibilidad": true,
+      "precio": 8800,
+      "anio_fabricacion": 2019,
+      "tiene_caja": true,
+      "tiene_papeles": true,
+      "valoracion": 4.6,
+      "informacion_general": {
+        "categoria": "Clásico",
+        "genero": "Caballero",
+        "ubicacion": "Italia, Roma"
+      },
+      "calibre": {
+        "tipo_calibre": "Automatico",
+        "cod_calibre": "3235",
+        "reserva_marcha": 70
+      },
+      "caja": {
+        "material": "Acero",
+        "diametro": 36,
+        "resistencia_agua": "100 m",
+        "material_bisel": "Oro blanco",
+        "cristal": "Zafiro",
+        "esfera": "Azul",
+        "tipo_numeros": "Índices"
+      },
+      "pulsera": {
+        "material_pulsera": "Acero",
+        "color": "Acero",
+        "cierre": "Desplegable",
+        "material_cierre": "Acero"
+      },
+      "descripcion": "Elegancia atemporal para uso diario.",
+      "imagenes": [
+        "https://res.cloudinary.com/dlg9gx3ye/image/upload/v1771152467/datejust-36_vrr6wt.png",
+        "",
+        ""
+      ]
+    },
+    {
+      "id": "rjOHRQ8mErj8zX0OBSVp",
+      "fecha_registro": "2025-01-11T00:00:00.000Z",
+      "fecha_modificacion": "2025-01-11",
+      "marca": "Richard Mille",
+      "modelo": "RM 19-02",
+      "referencia": "RM19-02",
+      "descripcion_resumida": "Richard Mille Tourbillon dama",
+      "estado": {
+        "tipo": "Usado (Excelente)",
+        "descripcion_estado": "Excelente estado."
+      },
+      "disponibilidad": true,
+      "precio": 480000,
+      "anio_fabricacion": 2019,
+      "tiene_caja": true,
+      "tiene_papeles": true,
+      "valoracion": 4.7,
+      "informacion_general": {
+        "categoria": "Alta joyería",
+        "genero": "Dama",
+        "ubicacion": "Francia, Cannes"
+      },
+      "calibre": {
+        "tipo_calibre": "Cuerda manual",
+        "cod_calibre": "RM19-02",
+        "reserva_marcha": 70
+      },
+      "caja": {
+        "material": "Oro rosa",
+        "diametro": 45,
+        "resistencia_agua": null,
+        "material_bisel": "Diamantes",
+        "cristal": "Zafiro",
+        "esfera": "Esqueletada",
+        "tipo_numeros": "Sin números"
+      },
+      "pulsera": {
+        "material_pulsera": "Cuero",
+        "color": "Blanco",
+        "cierre": "Hebilla",
+        "material_cierre": "Oro rosa"
+      },
+      "descripcion": "Tourbillon con animación floral.",
+      "imagenes": [
+        "https://res.cloudinary.com/dlg9gx3ye/image/upload/v1771152571/rm-19-02_cunis8.png",
+        "",
+        ""
+      ]
+    },
+    {
+      "id": "rwSR3RyCvRyZzuDmrAJa",
+      "marca": "PRUEBA",
+      "modelo": "PRUEBA",
+      "referencia": "RM67-01",
+      "descripcion_resumida": "Richard Mille ultraplano",
+      "estado": {
+        "tipo": "Nuevo",
+        "descripcion_estado": "Sin uso."
+      },
+      "disponibilidad": true,
+      "anio_fabricacion": 2023,
+      "tiene_caja": true,
+      "tiene_papeles": true,
+      "valoracion": 4.8,
+      "informacion_general": {
+        "categoria": "Alta relojería",
+        "genero": "Caballero",
+        "ubicacion": "Emiratos Árabes, Dubái"
+      },
+      "calibre": {
+        "tipo_calibre": "Automatico",
+        "cod_calibre": "CRMA6",
+        "reserva_marcha": 50
+      },
+      "descripcion": "Reloj ultraligero de alta precisión.",
+      "pulsera": {
+        "material_pulsera": "Textil",
+        "color": "Negro",
+        "cierre": "Velcro",
+        "material_cierre": "Titanio"
+      },
+      "precio": 145000,
+      "caja": {
+        "material": "Titanio",
+        "diametro": 38,
+        "resistencia_agua": null,
+        "material_bisel": "Titanio",
+        "cristal": "Zafiro",
+        "esfera": "Esqueletada",
+        "tipo_numeros": "Sin números"
+      },
+      "imagenes": [
+        "https://res.cloudinary.com/dlg9gx3ye/image/upload/v1771152501/rm-67-01_plrsrk.webp",
+        "",
+        ""
+      ],
+      "fecha_registro": "2026-02-18T09:49:11.818Z",
+      "fecha_modificacion": "2026-02-18T09:49:11.818Z"
+    }
+  ]
+}

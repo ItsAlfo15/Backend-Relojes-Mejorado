@@ -108,8 +108,6 @@ const login = async (user) => {
             { expiresIn: process.env.REFRESH_JWT_EXPIRATION }
         )
 
-        console.log(userData)
-
         // Retorno ambos token y los datos del usuario
         return {
             accessToken,
@@ -130,11 +128,7 @@ const login = async (user) => {
 const refreshToken = async (userId) => {
     try {
 
-        console.log(userId)
-
         const user = await collection.doc(userId).get()
-
-        console.log('User', user)
 
         if (!user.exists) {
             throw {

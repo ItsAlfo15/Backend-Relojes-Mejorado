@@ -12,7 +12,7 @@ const verifyToken = (req, res, next) => {
             });
         }
 
-        const token = authHeader.replace("Bearer", "");
+        const token = authHeader.replace("Bearer ", "");
 
         const decoded = jwt.verify(token, process.env.SECRET_JWT_SEED);
 

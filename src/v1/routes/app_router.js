@@ -5,7 +5,7 @@ const validateSchema = require("../../middlewares/watch_middleware/validate_sche
 const postWatchSchema = require('../../schemes/post_watch_schema');
 const updateWatchSchema = require('../../schemes/update_watch_schema');
 const validateQuery = require('../../middlewares/watch_middleware/validate_query')
-const authorization = require('../../middlewares/auth_middleware/authorization');
+const onlyAdmin = require('../../middlewares/auth_middleware/authorization');
 const verifyToken = require('../../middlewares/auth_middleware/verifyToken')
 
 /**
@@ -63,7 +63,7 @@ watchRouter.get('/:id', validateId, controller.getOneWatch);
  *             schema:
  *               type: object
  */
-watchRouter.post('/', verifyToken, authorization.onlyAdmin, validateSchema(postWatchSchema), controller.createNewWatch);
+watchRouter.post('/', verifyToken, onlyAdmin, validateSchema(postWatchSchema), controller.createNewWatch);
 
 /**
  * @swagger
@@ -87,7 +87,7 @@ watchRouter.post('/', verifyToken, authorization.onlyAdmin, validateSchema(postW
  *             schema:
  *               type: object
  */
-watchRouter.put('/:id', verifyToken, authorization.onlyAdmin, validateId, validateSchema(updateWatchSchema), controller.updateOneWatch);
+watchRouter.put('/:id', verifyToken, onlyAdmin, validateId, validateSchema(updateWatchSchema), controller.updateOneWatch);
 
 /**
  * @swagger
@@ -111,7 +111,7 @@ watchRouter.put('/:id', verifyToken, authorization.onlyAdmin, validateId, valida
  *             schema:
  *               type: object
  */
-watchRouter.patch('/:id', verifyToken, authorization.onlyAdmin, validateId, validateSchema(updateWatchSchema), controller.updateOneWatch);
+watchRouter.patch('/:id', verifyToken, onlyAdmin, validateId, validateSchema(updateWatchSchema), controller.updateOneWatch);
 
 /**
  * @swagger
@@ -135,6 +135,6 @@ watchRouter.patch('/:id', verifyToken, authorization.onlyAdmin, validateId, vali
  *             schema:
  *               type: object
  */
-watchRouter.delete('/:id', verifyToken, authorization.onlyAdmin, validateId, controller.deleteWatch);
+watchRouter.delete('/:id', verifyToken, onlyAdmin, validateId, controller.deleteWatch);
 
 module.exports = watchRouter;

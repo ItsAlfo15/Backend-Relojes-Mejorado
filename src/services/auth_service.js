@@ -70,7 +70,7 @@ const login = async (user) => {
         if (usuarioAVerificar.empty) {
             throw {
                 status: 400,
-                message: "Hubo un error al iniciar sesiónddd"
+                message: "Hubo un error al iniciar sesión"
             };
         }
 

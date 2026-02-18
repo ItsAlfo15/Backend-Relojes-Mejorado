@@ -105,7 +105,7 @@ const refreshToken = async (req, res) => {
                 role: userData.role,
             },
             process.env.SECRET_JWT_SEED,
-            { expiresIn: process.env.JWT_EXPIRATION }
+            { expiresIn: process.env.ACCESS_JWT_EXPIRATION }
         );
 
         res.json({

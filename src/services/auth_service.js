@@ -2,6 +2,7 @@ const { DB } = require('../config/firebase_config');
 const jwt = require('jsonwebtoken');
 const bcrypt = require('bcrypt');
 const dotenv = require('dotenv');
+const { UserInfo } = require('firebase-admin/auth');
 
 dotenv.config()
 
@@ -18,7 +19,7 @@ const register = async (user) => {
         const usuarioAVerificar = await collection.where('email', '==', email).get()
 
         // Devuelvo error en caso de que el email ya exista
-        if (usuarioAVerificar.exists) {
+        if (!usuarioAVerificar.empty) {
             throw {
                 status: 400,
                 message: "Este correo ya está registrado"
@@ -66,10 +67,10 @@ const login = async (user) => {
         const usuarioAVerificar = await collection.where('email', '==', email).get()
 
         // Devuelvo error en caso de que el email no exixta
-        if (!usuarioAVerificar.exists) {
+        if (usuarioAVerificar.empty) {
             throw {
                 status: 400,
-                message: "Hubo un error al iniciar sesión"
+                message: "Hubo un error al iniciar sesiónddd"
             };
         }
 
@@ -107,10 +108,13 @@ const login = async (user) => {
             { expiresIn: process.env.REFRESH_JWT_EXPIRATION }
         )
 
+        console.log(userData)
+
         // Retorno ambos token y los datos del usuario
         return {
             accessToken,
             refreshToken,
+            id: doc.id,
             user: userData
         };
 
@@ -126,7 +130,11 @@ const login = async (user) => {
 const refreshToken = async (userId) => {
     try {
 
+        console.log(userId)
+
         const user = await collection.doc(userId).get()
+
+        console.log('User', user)
 
         if (!user.exists) {
             throw {

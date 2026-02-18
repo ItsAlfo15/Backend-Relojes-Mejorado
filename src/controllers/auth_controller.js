@@ -37,7 +37,7 @@ const login = async (req, res) => {
         const { email, password } = req.body
 
         // Recojo el token generado y el usuario logueado
-        const { token, user } = await userService.login({ email, password });
+        const { accessToken, refreshToken, id, user } = await userService.login({ email, password });
 
         // Asigno el tiempo de expiracion del token, 
         // desde la fecha actual hasta el tiempo definido en el .env, 
@@ -51,16 +51,17 @@ const login = async (req, res) => {
         // Asigno un nombre, el token y las opciones a la cookie, 
         // de esta forma cada vez que haya una peticion, 
         // se podra leer la cookie para verificar al usuario
-        res.cookie("jwt", token, cookieOption)
+        res.cookie("jwt", accessToken, cookieOption);
 
-        // Retorno el token y el usuario
+        // Retorno tokens y el usuario
         res.status(200).send({
             status: "OK",
             message: "Usuario logueado correctamente",
             data: {
-                token,
+                accesstoken: accessToken,
+                refreshToken: refreshToken, 
                 user: {
-                    id: doc.id,
+                    id: id,  
                     name: user.name,
                     email: user.email,
                     role: user.role

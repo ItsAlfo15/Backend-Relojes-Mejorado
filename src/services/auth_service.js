@@ -2,7 +2,6 @@ const { DB } = require('../config/firebase_config');
 const jwt = require('jsonwebtoken');
 const bcrypt = require('bcrypt');
 const dotenv = require('dotenv');
-const { use } = require('react');
 
 dotenv.config()
 

@@ -1,5 +1,6 @@
 const authRouter = require('express').Router();
 const authController = require('../../controllers/auth_controller');
+const verifyToken = require('../../middlewares/auth_middleware/verifyToken');
 const validateSchema = require("../../middlewares/watch_middleware/validate_schema")
 const { registerSchema, loginSchema } = require('../../schemes/auth_schema')
 
@@ -68,5 +69,65 @@ authRouter.post('/login', validateSchema(loginSchema), authController.login);
  *               type: object
  */
 authRouter.post('/refresh', authController.refreshToken);
+
+/**
+ * @swagger
+ * /api/v1/user/me:
+ *   get:
+ *     summary: Obtener datos del usuario logueado
+ *     tags: [Auth]
+ *     security:
+ *       - bearerAuth: []
+ *     responses:
+ *       200:
+ *         description: Datos del usuario autenticado
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *       401:
+ *         description: Token inválido o expirado
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ */
+authRouter.get('/me', verifyToken, authController.verifyUser);
+
+/**
+ * @swagger
+ * /api/v1/user/{id}:
+ *   get:
+ *     summary: Obtener usuario por ID
+ *     tags: [Auth]
+ *     security:
+ *       - bearerAuth: []
+ *     parameters:
+ *       - in: path
+ *         name: id
+ *         required: true
+ *         schema:
+ *           type: string
+ *     responses:
+ *       200:
+ *         description: Usuario encontrado
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *       401:
+ *         description: Token inválido o expirado
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *       404:
+ *         description: Usuario no encontrado
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ */
+authController.get('/:id', verifyToken, authController.getById)
 
 module.exports = authRouter;

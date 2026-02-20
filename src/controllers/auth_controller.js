@@ -1,8 +1,6 @@
 const userService = require('../services/auth_service')
 const dotenv = require('dotenv')
-const { CollectionGroup } = require('firebase-admin/firestore')
 const jwt = require('jsonwebtoken')
-const { de } = require('zod/locales')
 
 dotenv.config()
 
@@ -59,9 +57,9 @@ const login = async (req, res) => {
             message: "Usuario logueado correctamente",
             data: {
                 accesstoken: accessToken,
-                refreshToken: refreshToken, 
+                refreshToken: refreshToken,
                 user: {
-                    id: id,  
+                    id: id,
                     name: user.name,
                     email: user.email,
                     role: user.role
@@ -94,7 +92,7 @@ const refreshToken = async (req, res) => {
             process.env.REFRESH_TOKEN_SEED
         );
 
-        const user = await userService.refreshToken(decoded.id)
+        const user = await userService.getById(decoded.id)
 
         const userData = user.data();
 
@@ -121,10 +119,41 @@ const refreshToken = async (req, res) => {
     }
 }
 
+const verifyUser = (req, res) => {
+    return res.json({
+        status: "OK",
+        data: req.user
+    });
+}
+
+const getById = async (req, res) => {
+
+    const { params: { id } } = req;
+
+    try {
+        const user = await userService.getById(id);
+
+        const userData = user.data()
+
+        // Devuelvo los datos
+        res.send({
+            status: "OK",
+            data: userData
+        })
+
+    } catch (error) {
+        // Devuelvo error
+        res.status(error?.status || 500).send({
+            status: "FAILED",
+            data: { error: { message: error?.message || error } }
+        })
+    }
+}
 
 module.exports = {
     register,
     login,
-    refreshToken
+    refreshToken,
+    verifyUser,
+    getById
 }
-

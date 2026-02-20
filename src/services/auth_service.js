@@ -125,7 +125,7 @@ const login = async (user) => {
 
 }
 
-const refreshToken = async (userId) => {
+const getById = async (userId) => {
     try {
 
         const user = await collection.doc(userId).get()
@@ -147,9 +147,10 @@ const refreshToken = async (userId) => {
     }
 }
 
+
 module.exports = {
     register,
     login,
-    refreshToken
+    getById
 }
 

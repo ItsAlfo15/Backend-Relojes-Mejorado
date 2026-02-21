@@ -128,6 +128,6 @@ authRouter.get('/me', verifyToken, authController.verifyUser);
  *             schema:
  *               type: object
  */
-authController.get('/:id', verifyToken, authController.getById)
+authRouter.get('/:id', verifyToken, authController.getById)
 
 module.exports = authRouter;

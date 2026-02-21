@@ -5,6 +5,7 @@ z.config(z.locales.es());
 const postWatchSchema = z.object({
 
     marca: z.string().min(1, 'marca: no puede ser un campo vacío'),
+    imagen_portada: z.string().min(1, 'imagen_marca: debes añadir una imagen para la portada'),
     modelo: z.string().min(1, 'modelo: no puede ser un campo vacío'),
     referencia: z.string().min(1, 'referencia: no puede ser un campo vacío'),
     descripcion_resumida: z.string().min(1, 'descripcion_resumida: no puede ser un campo vacío'),

@@ -32,12 +32,14 @@ const register = async (user) => {
         const salt = await bcrypt.genSalt(5)
         const hashPassword = await bcrypt.hash(password, salt)
 
+        const image = 'https://res.cloudinary.com/dlg9gx3ye/image/upload/v1771706727/avatar_default_j674id.png'
+
         // Creo el nuevo usuario y le asigno valores por defecto
         const newUser = {
             name: name,
             email: email,
             password: hashPassword,
-            image: 'public/avatars/avatar_default.png',
+            image: image,
             role: 'user',
             createdAt: new Date().toISOString(),
             updatedAt: new Date().toISOString()
